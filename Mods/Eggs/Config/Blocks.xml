@@ -18,38 +18,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg1.unity3d?Egg1 Prefab" />
             <!-- <property name="CustomIcon" value="Egg1" /> -->
         </block>
-                    <block name="Zombie Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg1 x2.unity3d?Egg1 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="Egg1" /> -->
-        </block>
-                    <block name="Zombie Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg1 x3.unity3d?Egg1 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="Egg1" /> -->
-        </block>
   		    <block name="Scotch Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
@@ -64,38 +32,6 @@
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
             <property name="Shape" value="ModelEntity" />
             <property name="Model" value="#@modfolder:Resources/Egg2.unity3d?Egg2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-  		    <block name="Scotch Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg2 x2.unity3d?Egg2 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-  		    <block name="Scotch Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg2 x3.unity3d?Egg2 x3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
   		    <block name="Groke Egg">
@@ -114,38 +50,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg3.unity3d?Egg3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-  		    <block name="Groke Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg3 x2.unity3d?Egg3 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-  		    <block name="Groke Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg3 x3.unity3d?Egg3 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
   		    <block name="Tea Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
@@ -160,38 +64,6 @@
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
             <property name="Shape" value="ModelEntity" />
             <property name="Model" value="#@modfolder:Resources/Egg4.unity3d?Egg4 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-  		    <block name="Tea Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg4 x2.unity3d?Egg4 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-  		    <block name="Tea Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg4 x3.unity3d?Egg4 x3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
                     <block name="Eye Egg">
@@ -210,38 +82,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg5.unity3d?Egg5 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                    <block name="Eye Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg5 x2.unity3d?Egg5 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Eye Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg5 x3.unity3d?Egg5 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
                     <block name="Skull Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
@@ -256,38 +96,6 @@
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
             <property name="Shape" value="ModelEntity" />
             <property name="Model" value="#@modfolder:Resources/Egg6.unity3d?Egg6 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Skull Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg6 x2.unity3d?Egg6 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Skull Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg6 x3.unity3d?Egg6 x3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
                      <block name="Phancy Egg">
@@ -306,38 +114,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg7.unity3d?Egg7 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                     <block name="Phancy Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg7 x2.unity3d?Egg7 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                     <block name="Phancy Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg7 x3.unity3d?Egg7 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
                     <block name="Fade Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
@@ -352,38 +128,6 @@
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
             <property name="Shape" value="ModelEntity" />
             <property name="Model" value="#@modfolder:Resources/Egg8.unity3d?Egg8 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Fade Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg8 x2.unity3d?Egg8 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Fade Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg8 x3.unity3d?Egg8 x3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
                     <block name="Pikeypoke Egg">
@@ -402,38 +146,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg9.unity3d?Egg9 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                    <block name="Pikeypoke Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg9 x2.unity3d?Egg9 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Pikeypoke Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg9 x3.unity3d?Egg9 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
                     <block name="JaimeTigress Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
@@ -450,39 +162,7 @@
             <property name="Model" value="#@modfolder:Resources/Egg10.unity3d?Egg10 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                    <block name="JaimeTigress Egg x2">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg10 x2.unity3d?Egg10 x2 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="JaimeTigress Egg x3">
-            <property name="Material" value="Mstone"/>
-            <property name="DisplayType" value="blockMulti" />
-            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
-            <property name="IsTerrainDecoration" value="false"/>
-            <property name="Path" value="solid"/>
-            <property name="StabilitySupport" value="true"/>
-            <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
-            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-            <drop event="Destroy" name="resourceRockSmall" count="20"/>
-            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
-            <property name="Shape" value="ModelEntity" />
-            <property name="Model" value="#@modfolder:Resources/Egg10 x3.unity3d?Egg10 x3 Prefab" />
-            <!-- <property name="CustomIcon" value="" /> -->
-        </block>
-                    <block name="Normal Egg">
+                    <block name="Humbug Egg">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
             <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
@@ -498,7 +178,7 @@
             <property name="Model" value="#@modfolder:Resources/Egg11.unity3d?Egg11 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                    <block name="Normal Egg x2">
+                    <block name="Zombie Egg x2">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
             <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
@@ -506,7 +186,167 @@
             <property name="Path" value="solid"/>
             <property name="StabilitySupport" value="true"/>
             <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg1 x2.unity3d?Egg1 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="Egg1" /> -->
+        </block>
+  		    <block name="Scotch Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg2 x2.unity3d?Egg2 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+  		    <block name="Groke Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg3 x2.unity3d?Egg3 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+  		    <block name="Tea Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg4 x2.unity3d?Egg4 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Eye Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg5 x2.unity3d?Egg5 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Skull Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg6 x2.unity3d?Egg6 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                     <block name="Phancy Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg7 x2.unity3d?Egg7 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Fade Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg8 x2.unity3d?Egg8 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Pikeypoke Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg9 x2.unity3d?Egg9 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="JaimeTigress Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg10 x2.unity3d?Egg10 x2 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Humbug Egg x2">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" name="resourceRockSmall" count="20"/>
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
@@ -514,7 +354,7 @@
             <property name="Model" value="#@modfolder:Resources/Egg11 x2.unity3d?Egg11 x2 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-                    <block name="Normal Egg x3">
+                    <block name="Zombie Egg x3">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
             <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
@@ -522,7 +362,167 @@
             <property name="Path" value="solid"/>
             <property name="StabilitySupport" value="true"/>
             <property name="OnlySimpleRotations" value="true"/> 
-            <property name="CanPickup" value="true" /> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg1 x3.unity3d?Egg1 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="Egg1" /> -->
+        </block>
+  		    <block name="Scotch Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg2 x3.unity3d?Egg2 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+  		    <block name="Groke Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg3 x3.unity3d?Egg3 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+  		    <block name="Tea Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg4 x3.unity3d?Egg4 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Eye Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg5 x3.unity3d?Egg5 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Skull Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg6 x3.unity3d?Egg6 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                     <block name="Phancy Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg7 x3.unity3d?Egg7 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Fade Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg8 x3.unity3d?Egg8 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Pikeypoke Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg9 x3.unity3d?Egg9 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="JaimeTigress Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Destroy" name="resourceRockSmall" count="20"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/Egg10 x3.unity3d?Egg10 x3 Prefab" />
+            <!-- <property name="CustomIcon" value="" /> -->
+        </block>
+                    <block name="Humbug Egg x3">
+            <property name="Material" value="Mstone"/>
+            <property name="DisplayType" value="blockMulti" />
+            <!-- <property name="MultiBlockDim" value="1,5,1"/> -->
+            <property name="IsTerrainDecoration" value="false"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="true"/>
+            <property name="OnlySimpleRotations" value="true"/> 
+            <property name="CanPickup" value="false" /> 
             <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
             <drop event="Destroy" name="resourceRockSmall" count="20"/>
             <property name="DescriptionKey" value="decorativeBlockGroupDesc"/> 
@@ -530,7 +530,6 @@
             <property name="Model" value="#@modfolder:Resources/Egg11 x3.unity3d?Egg11 x3 Prefab" />
             <!-- <property name="CustomIcon" value="" /> -->
         </block>
-
                     <block name="Basket">
             <property name="Material" value="Mstone"/>
             <property name="DisplayType" value="blockMulti" />
